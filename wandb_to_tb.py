@@ -10,11 +10,11 @@ from torch.utils.tensorboard import SummaryWriter
 # ============================================================ 
 RUN_PATH = ( 
     "1196113942-nankai-university/" 
-    "scaf-grpo-expert-sft/" 
-    "y52m6blw" 
+    "scaf-grpo-baseline/"#"scaf-grpo-expert-sft/" 
+    "2555ocaf" 
 ) 
 # 本地 TensorBoard 输出目录 
-OUTPUT_DIR = Path("./tensorboard/qwen25_math7b_y52m6blw_grpo_baseline") 
+OUTPUT_DIR = Path("./tensorboard/qwen25_math7b_2555ocaf_grpo_baseline_in_luffy") 
 # W&B 默认图表横坐标 "Step" 对应 _step 
 STEP_KEY = "_step" 
 # ============================================================ 
