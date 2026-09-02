@@ -1,0 +1,100 @@
+{
+  "os":  "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.10.20",
+  "startedAt":  "2026-09-01T02:50:40.441573Z",
+  "args":  [
+    "--node-ip-address=10.203.10.36",
+    "--node-manager-port=38439",
+    "--object-store-name=/tmp/ray/session_2026-09-01_10-48-39_833538_2785637/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2026-09-01_10-48-39_833538_2785637/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=0",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=0",
+    "--gcs-address=10.203.10.36:33273",
+    "--session-name=session_2026-09-01_10-48-39_833538_2785637",
+    "--temp-dir=/tmp/ray",
+    "--webui=127.0.0.1:8267",
+    "--cluster-id=ada531f9273264eb639675d977c4c3fe0e4709d356cd55783561ca09",
+    "--worker-id=f133514b6a8173b2d9f2856d4fbf4d5052273421b535840930b69bd2",
+    "--worker-launch-time-ms=1788230928269",
+    "--node-id=baa30185f8654f26305154cab8be7b534ab8dad06e8c5cbb1ab65cef",
+    "--runtime-env-hash=-1106042212"
+  ],
+  "program":  "/home/liting/miniconda3/envs/verl070/lib/python3.10/site-packages/ray/_private/workers/default_worker.py",
+  "git":  {
+    "remote":  "https://github.com/NKU-LITI/VERL070.git",
+    "commit":  "60d00521efa3db791e8067a3eba066e88aafc5cb"
+  },
+  "email":  "1196113942@qq.com",
+  "root":  "/workplace/nankai/liting_space/SFT-RL/verl070/outputs/qwen25_math7b_grpo_all_agg_adapt_npu",
+  "host":  "sinnet",
+  "executable":  "/home/liting/miniconda3/envs/verl070/bin/python3",
+  "cpu_count":  64,
+  "cpu_count_logical":  128,
+  "gpu":  "NVIDIA H800",
+  "gpu_count":  7,
+  "disk":  {
+    "/":  {
+      "total":  "942860439552",
+      "used":  "612887117824"
+    }
+  },
+  "memory":  {
+    "total":  "2164169265152"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA H800",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-faba001a-567e-2017-e33f-151b7a4909ba"
+    },
+    {
+      "name":  "NVIDIA H800",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-e00b470b-f4f3-f606-5577-7f722b064df2"
+    },
+    {
+      "name":  "NVIDIA H800",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-64c3622f-bcf8-640d-1d86-3eb8eb72ff4e"
+    },
+    {
+      "name":  "NVIDIA H800",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-8bd6674c-b13a-9e55-2706-72e716147eb0"
+    },
+    {
+      "name":  "NVIDIA H800",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-5d85f48b-f517-3722-ace5-d60f0416bb1e"
+    },
+    {
+      "name":  "NVIDIA H800",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-5168c007-0d9b-d2f2-fa1b-f56c9335d4e4"
+    },
+    {
+      "name":  "NVIDIA H800",
+      "memoryTotal":  "85520809984",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-afb255fe-0d81-2a07-fcaa-43e1d0591dcc"
+    }
+  ],
+  "cudaVersion":  "13.2",
+  "writerId":  "brzddqb0vx3if92pvars5ni7zwd6hgbt"
+}
